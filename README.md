@@ -6,7 +6,7 @@ Run time based queries over a git repository.
 
 Add this line to your application's Gemfile:
 
-    gem 'overtime'
+    gem 'overtime-queries'
 
 And then execute:
 
@@ -14,7 +14,7 @@ And then execute:
 
 Or install it yourself as:
 
-    $ gem install overtime
+    $ gem install overtime-queries
 
 ## Usage
 

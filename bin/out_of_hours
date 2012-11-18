@@ -1,0 +1,11 @@
+#!/usr/bin/env ruby
+
+begin
+  require 'overtime'
+rescue LoadError
+  require 'rubygems'
+  require 'overtime'
+end
+
+query = Overtime::OutOfHoursQuery.new
+query.run

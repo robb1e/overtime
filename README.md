@@ -1,6 +1,6 @@
 # Overtime
 
-TODO: Write a gem description
+Run time based queries over a git repository.
 
 ## Installation
 

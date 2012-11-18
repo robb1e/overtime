@@ -1,5 +1,2 @@
 require "overtime/version"
-
-module Overtime
-  # Your code goes here...
-end
+require "overtime/out_of_hours_query"

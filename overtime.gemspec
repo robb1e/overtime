@@ -8,8 +8,8 @@ Gem::Specification.new do |gem|
   gem.version       = Overtime::VERSION
   gem.authors       = ["Robbie Clutton"]
   gem.email         = ["robert.clutton@gmail.com"]
-  gem.description   = %q{TODO: Write a gem description}
-  gem.summary       = %q{TODO: Write a gem summary}
+  gem.description   = %q{Run time based queries over a git repository}
+  gem.summary       = %q{Run time based queries over a git repository}
   gem.homepage      = ""
 
   gem.files         = `git ls-files`.split($/)

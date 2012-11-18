@@ -4,7 +4,7 @@ $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
 require 'overtime/version'
 
 Gem::Specification.new do |gem|
-  gem.name          = "overtime"
+  gem.name          = "overtime-queries"
   gem.version       = Overtime::VERSION
   gem.authors       = ["Robbie Clutton"]
   gem.email         = ["robert.clutton@gmail.com"]

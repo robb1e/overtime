@@ -17,6 +17,10 @@ module Overtime
       end
     end
 
+    def present
+      run.map { |commit| OutOfHoursPresenter.new(commit, @start, @end) }
+    end
+
     private
     def out_of_hours?(commit)
       commit.authored_date.wday > 5 ||

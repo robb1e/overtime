@@ -7,5 +7,6 @@ rescue LoadError
   require 'overtime'
 end
 
-query = Overtime::OutOfHoursQuery.new
-query.run
+repo = Grit::Repo.new(".")
+query = Overtime::OutOfHoursQuery.new(repo)
+puts query.present

@@ -10,7 +10,9 @@ Gem::Specification.new do |gem|
   gem.email         = ["robert.clutton@gmail.com"]
   gem.description   = %q{Run time based queries over a git repository}
   gem.summary       = %q{Run time based queries over a git repository}
-  gem.homepage      = ""
+  gem.homepage      = "http://github.com/robb1e/overtime"
+
+  gem.add_dependency "grit"
 
   gem.files         = `git ls-files`.split($/)
   gem.executables   = gem.files.grep(%r{^bin/}).map{ |f| File.basename(f) }
